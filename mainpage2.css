@@ -177,6 +177,7 @@ a{
   max-width: 100%;
   position: relative;
   margin: 0 0 10px;
+  top: 15px;
 }
 
 .container .card .imgBx h2
