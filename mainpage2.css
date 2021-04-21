@@ -30,17 +30,13 @@ nav ul {
     height: 25px;
     margin: 3em 0 6EM 2;
     padding: 3em 6EM 2EM 06Em;
-    /* background-color: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); */ */
     -webkit-background-clip: text;
-    /* -webkit-text-fill-color: transparent; */
 
 }
 
-nav
-
-nav ul li
+header nav ul li
 {
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 nav ul li a {
@@ -52,12 +48,10 @@ nav ul li a {
     font-family: 'original surfer'cursive;
     vertical-align: middle;
     text-transform: uppercase;
-    /* background-color: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); */
-    -webkit-background-clip: text;
-    /* -webkit-text-fill-color: transparent; */
     font-weight: 900;
     font-size: 1.3em;
     color: #ff9933;
+    background-color: blue;
     
 }
 
@@ -313,7 +307,7 @@ a{
     padding-left: 3em;
     padding-right: 3em;
     text-decoration: none;
-    color: black;
+    color:#ff9933;
     font-size: 1em;
     font-style: bold;
     font-family: 'original surfer'cursive;
@@ -324,8 +318,7 @@ a{
     /* -webkit-text-fill-color: transparent; */
     font-weight: 900;
     font-size: 1em;
-    border: solid 2px;
-    
+    border: solid 2px;    
 }
 
 
