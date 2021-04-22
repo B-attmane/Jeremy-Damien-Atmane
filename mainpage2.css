@@ -36,7 +36,7 @@ nav ul {
 
 header nav ul li
 {
-  /* background-color: blue; */
+  /* background-color: black; */
 }
 
 nav ul li a {
@@ -50,13 +50,13 @@ nav ul li a {
     text-transform: uppercase;
     font-weight: 900;
     font-size: 1.3em;
-    color: #ff9933;
-    background-color: blue;
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
     
 }
 
 nav ul li a:hover{
-    background-color: blue;
+    background-color: rgb(98, 98, 110);
     box-shadow: black;
 }
 
@@ -81,7 +81,7 @@ section{
 
 section h1
 {
-  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
   -webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -118,7 +118,7 @@ a{
 /* Grid CSS */
 .main1 {
   display: grid;
-  grid-template-columns: repeat(3, 25vw);
+  grid-template-columns: repeat(3, 30%);
   grid-template-rows: auto 1fr;
   justify-content: center;
   padding-left: 70px;
@@ -307,7 +307,7 @@ a{
     padding-left: 3em;
     padding-right: 3em;
     text-decoration: none;
-    color:#ff9933;
+    color:#ffffff;
     font-size: 1em;
     font-style: bold;
     font-family: 'original surfer'cursive;
